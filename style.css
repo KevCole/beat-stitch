@@ -1,0 +1,31 @@
+body,html {
+    height:  100%;
+    width: 100%;
+}
+
+
+
+
+.background{
+	background:url(images/mic-background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+    margin: 0;
+     display: -webkit-flex; /* Safari */
+  display: flex;
+    -webkit-justify-content: space-around; /* Safari */
+      justify-content:         space-around;
+}
+
+.button{
+ margin-top:25%;
+    text-align: center;
+    color: white;
+    border: 3px solid black;
+    width: 8%;
+    height: 8%;
+    border-radius: 5%;
+}
